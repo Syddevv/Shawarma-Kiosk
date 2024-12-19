@@ -1,0 +1,55 @@
+D:\PRE DEF\Shawarma Kiosk System\User Interface\User Interface\bin\Debug\User Interface.exe.config
+D:\PRE DEF\Shawarma Kiosk System\User Interface\User Interface\bin\Debug\User Interface.exe
+D:\PRE DEF\Shawarma Kiosk System\User Interface\User Interface\bin\Debug\User Interface.pdb
+D:\PRE DEF\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User Interface.csproj.AssemblyReference.cache
+D:\PRE DEF\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.Form1.resources
+D:\PRE DEF\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.Properties.Resources.resources
+D:\PRE DEF\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User Interface.csproj.GenerateResource.cache
+D:\PRE DEF\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User Interface.csproj.CoreCompileInputs.cache
+D:\PRE DEF\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User Interface.exe
+D:\PRE DEF\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User Interface.pdb
+D:\PRE DEF\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.cart.resources
+C:\Shawarma Kiosk System\User Interface\User Interface\bin\Debug\User Interface.exe
+D:\Shawarma Kiosk System\User Interface\User Interface\bin\Debug\User Interface.exe.config
+D:\Shawarma Kiosk System\User Interface\User Interface\bin\Debug\User Interface.exe
+D:\Shawarma Kiosk System\User Interface\User Interface\bin\Debug\User Interface.pdb
+D:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User Interface.csproj.AssemblyReference.cache
+D:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.addOns.resources
+D:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.cart.resources
+D:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.drinks.resources
+D:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.Form1.resources
+D:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.orderDetails.resources
+D:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.orderDetailsMultiple.resources
+D:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.orderReceipt.resources
+D:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.orderSummary.resources
+D:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.orderSummaryMultiple.resources
+D:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.productOrderOption.resources
+D:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.Properties.Resources.resources
+D:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.receiptMultiple.resources
+D:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.ricemeals.resources
+D:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.wrapmeals.resources
+D:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User Interface.csproj.GenerateResource.cache
+D:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User Interface.csproj.CoreCompileInputs.cache
+D:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User Interface.exe
+D:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User Interface.pdb
+C:\Shawarma Kiosk System\User Interface\User Interface\bin\Debug\User Interface.exe.config
+C:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User Interface.csproj.AssemblyReference.cache
+C:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.addOns.resources
+C:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.cart.resources
+C:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.drinks.resources
+C:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.Form1.resources
+C:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.orderDetails.resources
+C:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.orderDetailsMultiple.resources
+C:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.orderReceipt.resources
+C:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.orderSummary.resources
+C:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.orderSummaryMultiple.resources
+C:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.productOrderOption.resources
+C:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.Properties.Resources.resources
+C:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.receiptMultiple.resources
+C:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.ricemeals.resources
+C:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User_Interface.wrapmeals.resources
+C:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User Interface.csproj.GenerateResource.cache
+C:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User Interface.csproj.CoreCompileInputs.cache
+C:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User Interface.exe
+C:\Shawarma Kiosk System\User Interface\User Interface\obj\Debug\User Interface.pdb
+C:\Shawarma Kiosk System\User Interface\User Interface\bin\Debug\User Interface.pdb
