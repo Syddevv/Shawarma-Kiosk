@@ -1,0 +1,32 @@
+D:\PRE DEF\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\bin\Debug\Staff Login and Interface.exe.config
+D:\PRE DEF\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\bin\Debug\Staff Login and Interface.exe
+D:\PRE DEF\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\bin\Debug\Staff Login and Interface.pdb
+D:\PRE DEF\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff Login and Interface.csproj.AssemblyReference.cache
+D:\PRE DEF\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff_Login_and_Interface.Form1.resources
+D:\PRE DEF\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff_Login_and_Interface.orders.resources
+D:\PRE DEF\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff_Login_and_Interface.Properties.Resources.resources
+D:\PRE DEF\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff Login and Interface.csproj.GenerateResource.cache
+D:\PRE DEF\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff Login and Interface.csproj.CoreCompileInputs.cache
+D:\PRE DEF\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff Login and Interface.exe
+D:\PRE DEF\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff Login and Interface.pdb
+C:\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\bin\Debug\Staff Login and Interface.exe.config
+C:\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\bin\Debug\Staff Login and Interface.exe
+C:\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\bin\Debug\Staff Login and Interface.pdb
+C:\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff Login and Interface.csproj.AssemblyReference.cache
+C:\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff_Login_and_Interface.forgotPass_Email.resources
+C:\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff_Login_and_Interface.forgotPass_Newpass.resources
+C:\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff_Login_and_Interface.forgotPass_Pin.resources
+C:\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff_Login_and_Interface.Form1.resources
+C:\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff_Login_and_Interface.history.resources
+C:\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff_Login_and_Interface.inventory.resources
+C:\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff_Login_and_Interface.orders.resources
+C:\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff_Login_and_Interface.Properties.Resources.resources
+C:\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff Login and Interface.csproj.GenerateResource.cache
+C:\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff Login and Interface.csproj.CoreCompileInputs.cache
+C:\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff Login and Interface.exe
+C:\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff Login and Interface.pdb
+C:\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff_Login_and_Interface.actions.resources
+C:\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff_Login_and_Interface.Settings.resources
+C:\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff_Login_and_Interface.addOrders.resources
+C:\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff_Login_and_Interface.quantity.resources
+C:\Shawarma Kiosk System\Staff Login and Interface\Staff Login and Interface\obj\Debug\Staff_Login_and_Interface.inventoryPerPiece.resources
