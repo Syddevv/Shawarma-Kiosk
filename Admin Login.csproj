@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{747CD149-5C1A-4C93-8557-02AA71A28B64}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Admin_Login</RootNamespace>
+    <AssemblyName>Admin Login</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="accountMonitoring.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="accountMonitoring.Designer.cs">
+      <DependentUpon>accountMonitoring.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addProduct.Designer.cs">
+      <DependentUpon>addProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addProductInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addProductInventory.Designer.cs">
+      <DependentUpon>addProductInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addProductInventoryPCS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addProductInventoryPCS.Designer.cs">
+      <DependentUpon>addProductInventoryPCS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="calendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="calendar.Designer.cs">
+      <DependentUpon>calendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="calendar_month.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="calendar_month.Designer.cs">
+      <DependentUpon>calendar_month.cs</DependentUpon>
+    </Compile>
+    <Compile Include="drinks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="drinks.Designer.cs">
+      <DependentUpon>drinks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditProductDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditProductDetails.Designer.cs">
+      <DependentUpon>EditProductDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forgotPass_Email.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forgotPass_Email.Designer.cs">
+      <DependentUpon>forgotPass_Email.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forgotPass_Newpass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forgotPass_Newpass.Designer.cs">
+      <DependentUpon>forgotPass_Newpass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forgotPass_Pin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forgotPass_Pin.Designer.cs">
+      <DependentUpon>forgotPass_Pin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="history.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="history.Designer.cs">
+      <DependentUpon>history.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inventory.Designer.cs">
+      <DependentUpon>inventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inventoryPerPiece.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inventoryPerPiece.Designer.cs">
+      <DependentUpon>inventoryPerPiece.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutOfStockForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutOfStockForm.Designer.cs">
+      <DependentUpon>OutOfStockForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductDetailsForm.Designer.cs">
+      <DependentUpon>ProductDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ricemeals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ricemeals.Designer.cs">
+      <DependentUpon>ricemeals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sales.Designer.cs">
+      <DependentUpon>sales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updateInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateInventory.Designer.cs">
+      <DependentUpon>updateInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updateInventoryPerPiece.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateInventoryPerPiece.Designer.cs">
+      <DependentUpon>updateInventoryPerPiece.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wrapmeals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wrapmeals.Designer.cs">
+      <DependentUpon>wrapmeals.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="accountMonitoring.resx">
+      <DependentUpon>accountMonitoring.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addProduct.resx">
+      <DependentUpon>addProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addProductInventory.resx">
+      <DependentUpon>addProductInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addProductInventoryPCS.resx">
+      <DependentUpon>addProductInventoryPCS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="calendar.resx">
+      <DependentUpon>calendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="calendar_month.resx">
+      <DependentUpon>calendar_month.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="drinks.resx">
+      <DependentUpon>drinks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditProductDetails.resx">
+      <DependentUpon>EditProductDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forgotPass_Email.resx">
+      <DependentUpon>forgotPass_Email.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forgotPass_Newpass.resx">
+      <DependentUpon>forgotPass_Newpass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forgotPass_Pin.resx">
+      <DependentUpon>forgotPass_Pin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="history.resx">
+      <DependentUpon>history.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inventory.resx">
+      <DependentUpon>inventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inventoryPerPiece.resx">
+      <DependentUpon>inventoryPerPiece.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutOfStockForm.resx">
+      <DependentUpon>OutOfStockForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductDetailsForm.resx">
+      <DependentUpon>ProductDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ricemeals.resx">
+      <DependentUpon>ricemeals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sales.resx">
+      <DependentUpon>sales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateInventory.resx">
+      <DependentUpon>updateInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateInventoryPerPiece.resx">
+      <DependentUpon>updateInventoryPerPiece.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wrapmeals.resx">
+      <DependentUpon>wrapmeals.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Black___White_Minimalist_Business_Logo-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Black___White_Minimalist_Business_Logo-removebg-preview %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\setting %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\magnifying-glass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\U+J+ED+POLY+CREW+JOR+6PR+-+144-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\BLAZER+MID+_77+VNTG-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\454811953_515446394360135_3041600975900342436_n.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NIKE+DUNK+LOW+RETRO+PRM-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WMNS+AIR+JORDAN+1+LOW-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AIR+JORDAN+LEGACY+312+LOW-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\U+J+ED+POLY+CREW+JOR+6PR+-+144-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\JORDAN+POST+SLIDE-removebg-preview-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\half-star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Circle_Illustrative_Burger_Restaurant_Free_Logo__1_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Circle_Illustrative_Burger_Restaurant_Free_Logo__1_-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Screenshot 2024-11-06 083225.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\fries2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Screenshot 2024-11-06 081638.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Screenshot 2024-11-06 081437.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\large chicken shawarma wrap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Screenshot 2024-10-30 092750.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Screenshot 2024-11-06 0832251.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\right-arrow %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\person.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\user %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\padlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\account.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\user %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\circle-arrows %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\circle-arrows.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\magnifying-glass1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\gmail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\left-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Screenshot 2024-11-06 0814371.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fries1.png" />
+    <None Include="Resources\fries3.png" />
+    <None Include="Resources\profile.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\add %281%29.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\add-button.png" />
+    <None Include="Resources\minus.png" />
+    <None Include="Resources\left-arrow3.png" />
+    <None Include="Resources\arrow1.png" />
+    <None Include="Resources\right-arrow %281%291.png" />
+    <None Include="Resources\left-arrow4.png" />
+    <Content Include="Resources\Screenshot 2024-11-06 081539.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Screenshot 2024-11-06 0816381.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Screenshot 2024-11-06 082158.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Screenshot 2024-11-06 0832252.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\chicken shawarma rice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Screenshot 2024-11-06 083141.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Screenshot 2024-11-06 0832253.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\coke mismo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Royal-Mismo-scaled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\sprite mismo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\nature spring.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\royal2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\royal-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\royal2-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\sprite-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\nature_spring2-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\left-arrow1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\photo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\x-mark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\left-arrow2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\fries.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
